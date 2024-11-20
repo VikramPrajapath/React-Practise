@@ -3,6 +3,7 @@ import Fruits from "./components/Fruits";
 import ConditionalComponent from "./components/ConditionalComponent";
 import Message from "./components/Message";
 import Count from "./components/Count";
+import Form from "./components/Form";
 function App() {
   const person = {
     name: "Ikris",
@@ -18,6 +19,8 @@ function App() {
       <ConditionalComponent />
       <Message />
       <Count />
+      <br />
+      <Form />
     </div>
   );
 }
